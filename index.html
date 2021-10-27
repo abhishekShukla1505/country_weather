@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="popout">
+        <div id="popbox">
+          <div class="popboxCountyName">
+            <span >Country Name :</span>
+            <span id="span_county_name"></span>
+          </div>
+          <div class="popboxCountyHumidity">
+            <span >Humidity :</span>
+            <span id="span_humidity"></span>
+          </div>
+          <div class="popboxWindSpeed">
+            <span >Wind Speed :</span>
+            <span id="span_Wind_Speed"></span>
+          </div>
+          
+          <div class="popbox_weather" >
+              <table style="display: flex; border: 1px sold black;justify-content: center; align-items: center; width: 100%">
+                  <tr>
+                      <td colspan="2">
+                        <span style="margin-left: 50px;">Weather &ensp; &ensp;               </span> <br>
+                      </td>
+                      <td colspan="2">
+                          <table>
+                              <tr>
+                                <td>
+                                    <span>Main :</span>
+                                </td>
+                                <th>
+                                    <span id="span_main"></span><br>
+                                </th>
+                              </tr>
+                              <tr>
+                                <td>
+                                    <span >description : </span>
+                                </td>
+                                <td>
+                                    <span id="span_description"></span>
+                                </td>
+                              </tr>
+                          </table>
+                      </td>
+                  </tr>
+                 
+              </table>
+             
+                
+                
+                
+                
+               
+              
+          </div>
+          <button class="wbtn" id="closeBtn" style="background-color: blueviolet;color: wheat;height: 20px; width: 80px;">Close</button>
+         
+        </div>
+    </div>
+    <div class="Heading " id="Heading">
+        <h1><b>Countries details</b></h1> 
+        <button  id="btn" style=" height: 20px;
+        width: 150px;
+        border: 1px solid white;
+        color: wheat;
+        font-size: 15px;
+        background-color: rgb(92, 37, 53);
+        margin-left: 40px;"></button>
+    </div>
+    
+    <div class="div_container" id="div_container">
+
+    </div>
+    <script src="scriptfile.js"></script>
+</body>
+
+</html>
